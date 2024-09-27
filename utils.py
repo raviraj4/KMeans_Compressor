@@ -48,7 +48,7 @@ def plot_kMeans_RGB(X, centroids, idx, K):
 
 
 def show_centroid_colors(centroids):
-    palette = np.expand_dims(centroids, axis = 0)
+    palette = np.expand_dims(centroids_n, axis = 0)
     num = np.arange(0, len(centroids))
     plt.figure(figsize=(16,16))
     plt.xticks(num)
